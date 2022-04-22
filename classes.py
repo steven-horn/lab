@@ -37,7 +37,7 @@ class Television:
 
     def channel_down(self) -> None:
         """
-        Method to change channel counting down
+        Method  to change channel counting down
         """
         if self.__tv_power == True:
             if self.__tv_channel == Television.min_channel:
